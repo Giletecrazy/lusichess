@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lusiada Chess</title>
+    <link rel="stylesheet" href="lib/chessboard-1.0.0.min.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/chessboard-1.0.0.min.js"></script>
+    <script type="module" src="client.js"></script>
+  </head>
+  <style>
+    body {
+      overflow-y: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #gameBoard {
+      width: 40%;
+    }
+  </style>
+  <body>
+    <div id="gameBoard"></div>
+  </body>
+</html>

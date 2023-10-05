@@ -1,0 +1,19 @@
+{
+  "name": "lusichess",
+  "version": "1.0.0",
+  "description": "Lusiada Chess ",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "author": "AI",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.6",
+    "express": "^4.18.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
